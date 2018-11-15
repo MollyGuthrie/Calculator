@@ -3,7 +3,7 @@
 print("Calculator Program")
 
 userName = input("What is your name: ")
-print("Welcome " + userName.strip() + "!")
+print("Welcome " + userName.strip().title() + "!")
 
 firstNumber= float(input("Please enter your first number: "))
 secondNumber= float(input("Please enter your second number: "))
