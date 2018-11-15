@@ -1,10 +1,21 @@
-"""
-Date: November 14, 2018
+#Date: November 15, 2018
 
-References: Youtube Git Tutorial for Beginners
+print("Calculator Program")
 
-What I want to accomplish in this commit:
-- Refresher on pushing and pulling project on/off GitHub.
-"""
+userName = input("What is your name: ")
+print("Welcome " + userName.strip() + "!")
 
-print("Welcome to Molly's Calculator!")
+firstNumber= float(input("Please enter your first number: "))
+secondNumber= float(input("Please enter your second number: "))
+
+print('{} + {} = '.format(firstNumber, secondNumber), end="")
+print(firstNumber+secondNumber)
+
+print('{} - {} = '.format(firstNumber, secondNumber), end="")
+print(firstNumber-secondNumber)
+
+print('{} * {} = '.format(firstNumber, secondNumber), end="")
+print(firstNumber*secondNumber)
+
+print('{} / {} = '.format(firstNumber, secondNumber), end="")
+print(firstNumber/secondNumber)
